@@ -176,10 +176,12 @@ Pełna lista zależności w `requirements.txt` / Full dependency list in `requir
 
 ## 📚 Dokumentacja / Documentation
 
+- **[SZYBKI_START.md](SZYBKI_START.md)** ⚡ - Start w 5 minut! / Get started in 5 minutes!
 - **[README.md](README.md)** - Ten plik / This file - Project overview
 - **[INSTALACJA.md](INSTALACJA.md)** - Szczegółowa instrukcja instalacji / Detailed installation guide  
 - **[PRZEWODNIK_DLA_STUDENTA.md](PRZEWODNIK_DLA_STUDENTA.md)** - Kompleksowy przewodnik dla studentów i początkujących / Comprehensive student guide
 - **[ARCHITEKTURA.md](ARCHITEKTURA.md)** - Dokumentacja architektury systemu / System architecture documentation
+- **[API.md](API.md)** - Dokumentacja API i przykłady użycia / API documentation and usage examples
 - **[CONTRIBUTING.md](CONTRIBUTING.md)** - Jak pomóc w rozwoju projektu / How to contribute
 - **[CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md)** - Kodeks postępowania / Code of conduct
 - **[CHANGELOG.md](CHANGELOG.md)** - Historia zmian / Change history
