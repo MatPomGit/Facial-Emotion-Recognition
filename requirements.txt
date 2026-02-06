@@ -1,0 +1,17 @@
+# Core dependencies for Facial Emotion Recognition system
+# Install all dependencies with: pip install -r requirements.txt
+
+# Computer Vision and Image Processing
+opencv-python>=4.5.0
+mediapipe>=0.8.10
+
+# Machine Learning
+scikit-learn>=1.0.0
+numpy>=1.21.0
+pandas>=1.3.0
+
+# Optional: For dlib module (uncomment if using dlib)
+# dlib>=19.22.0
+
+# Optional: Deep Learning (for dataset preparation)
+# tensorflow>=2.8.0
