@@ -6,7 +6,7 @@ labels: question
 assignees: ''
 ---
 
-## 🇵�� Pytanie / 🇬🇧 Question
+## Pytanie / Question
 
 <!-- Zadaj swoje pytanie tutaj / Ask your question here -->
 

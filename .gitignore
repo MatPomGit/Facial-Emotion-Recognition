@@ -39,7 +39,10 @@ env/
 
 # Jupyter Notebook
 .ipynb_checkpoints
+# Exclude notebooks except for educational examples
 *.ipynb
+!test/SVM.ipynb
+!test/**/*.ipynb
 
 # Testing
 .pytest_cache/
@@ -55,7 +58,10 @@ htmlcov/
 dataset/train/
 dataset/test/
 dataset/val/
+# Exclude CSV files except for pre-processed training data
 *.csv
+!dataset/*_emotions.csv
+!dataset/*.csv
 
 # Logs
 *.log
