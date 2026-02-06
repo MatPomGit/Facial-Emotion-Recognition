@@ -5,6 +5,7 @@
 ![OpenCV](https://img.shields.io/badge/OpenCV-4.5%2B-red)
 ![MediaPipe](https://img.shields.io/badge/MediaPipe-0.8%2B-orange)
 ![scikit--learn](https://img.shields.io/badge/scikit--learn-1.0%2B-yellow)
+![Status](https://img.shields.io/badge/status-active-success)
 
 System rozpoznawania emocji na twarzy (FER - Facial Expression Recognition)
 
@@ -175,7 +176,10 @@ Pełna lista zależności w `requirements.txt` / Full dependency list in `requir
 
 ## 📚 Dokumentacja / Documentation
 
+- **[README.md](README.md)** - Ten plik / This file - Project overview
+- **[INSTALACJA.md](INSTALACJA.md)** - Szczegółowa instrukcja instalacji / Detailed installation guide  
 - **[PRZEWODNIK_DLA_STUDENTA.md](PRZEWODNIK_DLA_STUDENTA.md)** - Kompleksowy przewodnik dla studentów i początkujących / Comprehensive student guide
+- **[ARCHITEKTURA.md](ARCHITEKTURA.md)** - Dokumentacja architektury systemu / System architecture documentation
 - **[CONTRIBUTING.md](CONTRIBUTING.md)** - Jak pomóc w rozwoju projektu / How to contribute
 - **[CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md)** - Kodeks postępowania / Code of conduct
 - **[CHANGELOG.md](CHANGELOG.md)** - Historia zmian / Change history
