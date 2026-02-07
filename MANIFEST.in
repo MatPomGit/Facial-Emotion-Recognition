@@ -1,0 +1,19 @@
+# Include documentation and configuration files
+include README.md
+include PRZEWODNIK_DLA_STUDENTA.md
+include LICENSE
+include CONTRIBUTING.md
+include CODE_OF_CONDUCT.md
+include CHANGELOG.md
+include requirements.txt
+include setup.py
+
+# Include all markdown files
+recursive-include . *.md
+
+# Exclude development and build files
+recursive-exclude * __pycache__
+recursive-exclude * *.py[co]
+recursive-exclude * .git*
+recursive-exclude dataset *
+recursive-exclude test *

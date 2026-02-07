@@ -1,5 +1,17 @@
 # Facial-Emotion-Recognition
+
+![Python Version](https://img.shields.io/badge/python-3.7%2B-blue)
+![License](https://img.shields.io/badge/license-MIT-green)
+![OpenCV](https://img.shields.io/badge/OpenCV-4.5%2B-red)
+![MediaPipe](https://img.shields.io/badge/MediaPipe-0.8%2B-orange)
+![scikit--learn](https://img.shields.io/badge/scikit--learn-1.0%2B-yellow)
+![Status](https://img.shields.io/badge/status-active-success)
+
 System rozpoznawania emocji na twarzy (FER - Facial Expression Recognition)
+
+> **English**: Real-time facial emotion recognition system using MediaPipe for face detection and SVM for emotion classification. Detects 7 basic emotions: angry, disgust, fear, happy, neutral, sad, surprise.
+>
+> **Polski**: System rozpoznawania emocji na twarzy w czasie rzeczywistym wykorzystujący MediaPipe do wykrywania twarzy i SVM do klasyfikacji emocji. Wykrywa 7 podstawowych emocji: złość, obrzydzenie, strach, radość, neutralność, smutek, zaskoczenie.
 
 ## Wprowadzenie dla studentów
 Ten projekt to praktyczna implementacja systemu do rozpoznawania emocji na ludzkich twarzach. Jeśli dopiero zaczynasz przygodę z machine learning i computer vision, ten projekt pomoże Ci zrozumieć podstawowe koncepcje:
@@ -112,11 +124,44 @@ Po wykryciu twarzy, system musi określić emocję. Używamy do tego:
 - FPS w lewym górnym rogu
 - W terminalu: przewidywane wartości liczbowe i nazwy emocji
 
-## Wymagania techniczne
-- Python 3.x
-- Biblioteki: OpenCV, MediaPipe (lub Dlib), scikit-learn, pandas, numpy
-- Kamera internetowa (do działania w czasie rzeczywistym) lub zdjęcia testowe
-- Zbiór danych z emocjami (obrazy pogrupowane według emocji)
+## 🚀 Szybki start / Quick Start
+
+### Instalacja / Installation
+
+```bash
+# Sklonuj repozytorium / Clone the repository
+git clone https://github.com/MatPomGit/Facial-Emotion-Recognition.git
+cd Facial-Emotion-Recognition
+
+# Zainstaluj zależności / Install dependencies
+pip install -r requirements.txt
+
+# Lub zainstaluj jako pakiet / Or install as package
+pip install -e .
+```
+
+### Pierwsze uruchomienie / First Run
+
+```bash
+# Uruchom program z domyślną kamerą / Run with default camera
+python main.py
+```
+
+Naciśnij `q` aby zakończyć / Press `q` to quit
+
+## 📋 Wymagania techniczne / Requirements
+
+- Python 3.7+
+- Biblioteki / Libraries:
+  - OpenCV (opencv-python) >= 4.5.0
+  - MediaPipe >= 0.8.10
+  - scikit-learn >= 1.0.0
+  - pandas >= 1.3.0
+  - numpy >= 1.21.0
+- Kamera internetowa (opcjonalnie) / Webcam (optional)
+- Zbiór danych z emocjami / Emotion dataset
+
+Pełna lista zależności w `requirements.txt` / Full dependency list in `requirements.txt`
 
 ## Wskazówki dla początkujących
 1. **Zacznij od małego zbioru danych** - Nie potrzebujesz tysięcy zdjęć na początku. Zacznij od kilkudziesięciu zdjęć na każdą emocję, żeby zrozumieć jak działa system.
@@ -128,3 +173,42 @@ Po wykryciu twarzy, system musi określić emocję. Używamy do tego:
 4. **Testuj różne emocje** - Spróbuj różnych wyrazów twarzy przed kamerą i zobacz jak model reaguje.
 
 5. **Czytaj komentarze w kodzie** - Każdy plik zawiera szczegółowe komentarze wyjaśniające co robi poszczególny fragment kodu.
+
+## 📚 Dokumentacja / Documentation
+
+- **[SZYBKI_START.md](SZYBKI_START.md)** ⚡ - Start w 5 minut! / Get started in 5 minutes!
+- **[README.md](README.md)** - Ten plik / This file - Project overview
+- **[INSTALACJA.md](INSTALACJA.md)** - Szczegółowa instrukcja instalacji / Detailed installation guide  
+- **[PRZEWODNIK_DLA_STUDENTA.md](PRZEWODNIK_DLA_STUDENTA.md)** - Kompleksowy przewodnik dla studentów i początkujących / Comprehensive student guide
+- **[ARCHITEKTURA.md](ARCHITEKTURA.md)** - Dokumentacja architektury systemu / System architecture documentation
+- **[API.md](API.md)** - Dokumentacja API i przykłady użycia / API documentation and usage examples
+- **[CONTRIBUTING.md](CONTRIBUTING.md)** - Jak pomóc w rozwoju projektu / How to contribute
+- **[CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md)** - Kodeks postępowania / Code of conduct
+- **[CHANGELOG.md](CHANGELOG.md)** - Historia zmian / Change history
+
+## 🤝 Jak pomóc? / How to Contribute?
+
+Zapraszamy do współpracy! Zobacz [CONTRIBUTING.md](CONTRIBUTING.md) po więcej informacji.
+
+We welcome contributions! See [CONTRIBUTING.md](CONTRIBUTING.md) for more information.
+
+## 📜 Licencja / License
+
+Ten projekt jest dostępny na licencji MIT. Zobacz plik [LICENSE](LICENSE) po szczegóły.
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## 📞 Kontakt / Contact
+
+- GitHub Issues: [Report a bug or request a feature](https://github.com/MatPomGit/Facial-Emotion-Recognition/issues)
+- Pull Requests: [Contribute to the project](https://github.com/MatPomGit/Facial-Emotion-Recognition/pulls)
+
+## 🙏 Podziękowania / Acknowledgments
+
+- Google MediaPipe team - za doskonałą bibliotekę do wykrywania twarzy
+- Twórcy scikit-learn - za implementację algorytmu SVM
+- Społeczność OpenCV - za wszechstronne narzędzia do przetwarzania obrazu
+
+---
+
+**Stworzone z ❤️ dla edukacji i nauki / Made with ❤️ for education and learning**

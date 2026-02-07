@@ -1,3 +1,75 @@
+# IDE and Editor files
 .idea
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv
+
+# Jupyter Notebook
 .ipynb_checkpoints
-*.pyc
+# Exclude notebooks except for educational examples
+*.ipynb
+!test/SVM.ipynb
+!test/**/*.ipynb
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Model files and datasets (large files)
+*.pkl
+*.h5
+*.hdf5
+*.model
+dataset/train/
+dataset/test/
+dataset/val/
+# Exclude CSV files except for pre-processed training data
+*.csv
+!dataset/*_emotions.csv
+!dataset/*.csv
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+main.png
+output/
+
+# OS specific
+Thumbs.db
